@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "author": "Jaid <jaid.jsx@gmail.com> (https://github.com/Jaid)",
   "dependencies": {
-    "@babel/runtime": "^7.7.7"
+    "@babel/runtime": "^7.7.7",
+    "has-content": "^1.1.0"
   },
   "devDependencies": {
     "acorn": "^7.1.0",

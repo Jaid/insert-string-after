@@ -1,23 +1,27 @@
 /** @module insert-string-after */
 
+import {isEmpty} from "has-content"
+
 /**
  * @function
- * @param {number} [compareValue]
+ * @param {string} haystack
+ * @param {string} needle
+ * @param {string} insertedString
  * @returns {number} Seconds passed since Unix epoch (01 January 1970)
  * @example
  * import insertStringAfter from "insert-string-after"
- * const result = insertStringAfter()
- * result === 1549410770
- * setTimeout(() => {
- *   const result2 = insertStringAfter(result)
- *   result2 === 3
- * }, 3000)
+ * const result = insertStringAfter("I am Sanic!", "Sanic", " the Hedgehog")
+ * result === "I am Sanic the Hedgehog!"
  */
-export default compareValue => {
-  const seconds = Math.floor(Date.now() / 1000)
-  if (compareValue === undefined) {
-    return seconds
-  } else {
-    return seconds - compareValue
+export default (haystack, needle, insertedString) => {
+  if (isEmpty(insertedString)) {
+    return haystack
   }
+  const needleString = String(needle)
+  const index = haystack.indexOf(needleString)
+  if (index === -1) {
+    return haystack
+  }
+  const endIndex = index + needleString.length
+  return haystack.slice(0, endIndex) + insertedString + haystack.slice(endIndex)
 }
