@@ -1,11 +1,25 @@
 # insert-string-after
 
 
-Inserts a string at the needle's end in a haystack.
+<a href="https://raw.githubusercontent.com/Jaid/insert-string-after/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/insert-string-after?style=flat-square" alt="License"/></a>  
+<a href="https://actions-badge.atrox.dev/Jaid/insert-string-after/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Finsert-string-after%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/insert-string-after/commits"><img src="https://img.shields.io/github/commits-since/Jaid/insert-string-after/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/insert-string-after/commits"><img src="https://img.shields.io/github/last-commit/Jaid/insert-string-after?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/insert-string-after/issues"><img src="https://img.shields.io/github/issues/Jaid/insert-string-after?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/insert-string-after"><img src="https://img.shields.io/npm/v/insert-string-after?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/insert-string-after/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/insert-string-after?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/insert-string-after"><img src="https://img.shields.io/npm/dm/insert-string-after?style=flat-square&logo=npm" alt="Downloads"/></a>
 
-<a href="https://raw.githubusercontent.com/Jaid/insert-string-after/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/insert-string-after?style=flat-square&color=success" alt="License"/></a>
-<a href="https://github.com/Jaid/insert-string-after/commits"><img src="https://img.shields.io/github/commits-since/Jaid/insert-string-after/v1.0.0?style=flat-square&logo=github&color=success" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/insert-string-after/commits"><img src="https://img.shields.io/github/last-commit/Jaid/insert-string-after?style=flat-square&logo=github&color=red" alt="Last commit"/></a> <a href="https://github.com/Jaid/insert-string-after/issues"><img src="https://img.shields.io/github/issues/Jaid/insert-string-after?style=flat-square&logo=github&color=red" alt="Issues"/></a>
-<a href="https://npmjs.com/package/insert-string-after"><img src="https://img.shields.io/npm/v/insert-string-after?style=flat-square&logo=npm&label=latest%20version&color=red" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/insert-string-after/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/insert-string-after?style=flat-square&logo=npm&color=red" alt="Dependents"/></a> <a href="https://npmjs.com/package/insert-string-after"><img src="https://img.shields.io/npm/dm/insert-string-after?style=flat-square&logo=npm&color=red" alt="Downloads"/></a>
+**Inserts a string at the needle's end in a haystack.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Installation
 <a href="https://npmjs.com/package/insert-string-after"><img src="https://img.shields.io/badge/npm-insert--string--after-C23039?style=flat-square&logo=npm" alt="insert-string-after on npm"/></a>
@@ -16,7 +30,7 @@ npm install --save insert-string-after@^1.0.0
 ```bash
 yarn add insert-string-after@^1.0.0
 ```
-<a href="https://jsdelivr.com/package/npm/insert-string-after"><img src="https://img.shields.io/badge/Web-insert--string--after-orange?style=flat-square&logo=html5&logoColor=white" alt="Web"/></a>
+<a href="https://jsdelivr.com/package/npm/insert-string-after/"><img src="https://img.shields.io/badge/jsDelivr-insert--string--after-orange?style=flat-square&logo=html5&logoColor=white" alt="insert-string-after on jsDelivr"/></a> <a href="https://unpkg.com/browse/insert-string-after/"><img src="https://img.shields.io/badge/UNPKG-insert--string--after-orange?style=flat-square&logo=html5&logoColor=white" alt="insert-string-after on UNPKG"/></a>
 ```html
 <script src="https://cdn.jsdelivr.net/npm/insert-string-after@1.0.0/index.js"/>
 ```
@@ -24,7 +38,7 @@ yarn add insert-string-after@^1.0.0
 
 ## Try it out
 
-<a href="https://jsdelivr.com/package/npm/insert-string-after"><img src="https://img.shields.io/badge/Web-insert--string--after-orange?style=flat-square&logo=html5&logoColor=white" alt="Web"/></a>
+
 
 Open a browser's JavaScript console and execute:
 
@@ -41,15 +55,36 @@ insert-string-after is now stored in the global variable `insertStringAfter`. Th
 typeof insertStringAfter.default
 ```
 
-<a name="module_insert-string-after"></a>
 
-## Reference
+
+
+
+
+## Development
+
+
+
+Setting up:
+```bash
+git clone git@github.com:Jaid/insert-string-after.git
+cd insert-string-after
+npm install
+```
+Testing:
+```bash
+npm run test:dev
+```
+Testing in production environment:
+```bash
+npm run test
+```
+
 
 ## License
 ```text
 MIT License
 
-Copyright © 2019, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
+Copyright © 2020, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
