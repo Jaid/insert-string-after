@@ -1,9 +1,9 @@
 # insert-string-after
 
 
-<a href="https://raw.githubusercontent.com/Jaid/insert-string-after/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/insert-string-after?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/insert-string-after/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Finsert-string-after%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/insert-string-after/commits"><img src="https://img.shields.io/github/commits-since/Jaid/insert-string-after/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/insert-string-after/commits"><img src="https://img.shields.io/github/last-commit/Jaid/insert-string-after?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/insert-string-after/issues"><img src="https://img.shields.io/github/issues/Jaid/insert-string-after?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/insert-string-after"><img src="https://img.shields.io/npm/v/insert-string-after?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/insert-string-after/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/insert-string-after?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/insert-string-after"><img src="https://img.shields.io/npm/dm/insert-string-after?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/insert-string-after/master/license.txt"><img src="https://img.shields.io/github/license/jaid/insert-string-after?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor insert-string-after"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/insert-string-after/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Finsert-string-after%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/insert-string-after/commits"><img src="https://img.shields.io/github/commits-since/jaid/insert-string-after/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/jaid/insert-string-after/commits"><img src="https://img.shields.io/github/last-commit/jaid/insert-string-after?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/insert-string-after/issues"><img src="https://img.shields.io/github/issues/jaid/insert-string-after?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/insert-string-after"><img src="https://img.shields.io/npm/v/insert-string-after?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/insert-string-after/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/insert-string-after?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/insert-string-after"><img src="https://img.shields.io/npm/dm/insert-string-after?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Inserts a string at the needle's end in a haystack.**
 
@@ -41,14 +41,13 @@ yarn add insert-string-after@^1.0.0
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/insert-string-after.git
+git clone git@github.com:jaid/insert-string-after.git
 cd insert-string-after
 npm install
 ```
