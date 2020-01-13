@@ -31,5 +31,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "insert-string-after",
-  "description": "Inserts a string at the needle's end in a haystack."
+  "description": "Inserts a string at the needle's end in a haystack.",
+  "funding": "https://github.com/sponsors/jaid"
 }
